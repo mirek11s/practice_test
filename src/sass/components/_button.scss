@@ -1,0 +1,21 @@
+//main button
+
+.btn {
+    &,
+    &:link,
+    &:visited {
+        text-decoration: none;
+        padding: 1.5rem 4rem;
+        //this way the element works as a normal block element
+        display: inline-block;
+        border-radius: 1rem;
+        transition: all 0.2s;
+        position: relative;
+        font-size: $default-font-size;
+
+        //buttons by default have border, we change that and remove it
+        border: none;
+        cursor: pointer;
+    }
+}
+

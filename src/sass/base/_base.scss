@@ -1,0 +1,20 @@
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  /* setting the box size on each element on the page, it will atuomatically inherit what ever we put in the border box */
+  box-sizing: inherit;
+}
+
+html {
+  /* this is the overall browser size, its used to convert the below px to rem */
+  /* 10px / 16px = 0.625 which is 62.5% */
+  //defines what 1rem is
+  font-size: 62.5%;
+}
+
+body {
+    box-sizing: border-box;
+  }

@@ -5,15 +5,25 @@ import '../sass/main.scss'
 const NavHeader = () => {
   return (
       <nav className="navbar">
-        <a href="/" className="navbar__logo">LOGO</a>
-        <div className="navbar__bars">
-            <div className="navbar__menu">
-                <a href="/" className="navbar__menu--links">Home</a>
-                <a href="/" className="navbar__menu--links">Тест</a>
-                <a href="/" className="navbar__menu--links">Test</a>
-                <a href="/" className="navbar__menu--links">TT_22</a>
-            </div>
-        </div>
+        <ul>
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#">Team</a>
+          </li>
+          <li>
+            <a href="#">Road Map</a>
+          </li>
+          <li>
+            <a href="#">FAQ</a>
+          </li>
+          <li>
+            <a href="#">
+              <span>Use DAPP</span>
+            </a>
+          </li>
+        </ul>
       </nav>
   );
 };

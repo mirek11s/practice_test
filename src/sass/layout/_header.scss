@@ -7,30 +7,34 @@
     ),
     url(../../img/header_sound_wave.gif);
 
+
   /* makes the image resizable when you minimize: */
   background-size: cover;
-  
-  background-position: -2px;
+
+  background-position: center;
   position: relative;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 94vh, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 94vh, 0 100%);
 
   &__logo-box {
-      position: absolute;
-      top: 1rem;
-      left: 20rem;
+    position: absolute;
+    top: 1rem;
+    left: 2rem;
+    transform: rotate(-20deg);
+    animation-name: showLogo;
+    animation-duration: 4s;
+    animation-timing-function: ease-out;
   }
-  
+
   &__logo {
-      height: 7.2rem;
+    height: 10rem;
   }
 
   &__text-box {
-      position: absolute;
-      top: 40%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
   }
-
 }

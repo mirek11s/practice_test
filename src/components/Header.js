@@ -1,10 +1,14 @@
 import logo from "../img/Artberry_logo_cut.png";
 
 import "../sass/main.scss";
+import NavHeader from "./NavHeader";
 
 const Header = () => {
   return (
     <header className="header">
+        
+      <NavHeader />
+
       <div className="header__logo-box">
         <img src={logo} alt="Logo" className="header__logo" />
       </div>
@@ -15,7 +19,7 @@ const Header = () => {
           <span className="heading-primary--sub">is where life begins</span>
         </h1>
 
-        <a href="/" className="btn btn--white btn--animated">
+        <a href="/" className="btn btn--animated">
           Learn more
         </a>
       </div>

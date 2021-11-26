@@ -1,8 +1,13 @@
 $color-primary-light: rgb(157, 156, 241);
 $color-primary-dark: rgba(17, 2, 182, 0.294);
 $color-white: #fff;
+$color-blue-dark: rgb(0, 0, 144);
+$color-blue-light: rgb(111, 186, 247);
+$color-main-background: rgba(17, 2, 182, 0.294);
 
 $color-grey-dark: #777;
+
+$color-purple-light: rgb(147, 87, 226);
 
 //GRID
 $grid-width: 114rem;
@@ -11,4 +16,4 @@ $gutter-horizontal: 6rem; //60px=6rem
 
 
 //font sizes
-$default-font-size: 3rem;
+$default-font-size: 2.8rem;

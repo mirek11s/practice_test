@@ -1,7 +1,5 @@
 import Header from "./components/Header";
-import NavHeader from "./components/NavHeader";
-
-
+import {Container} from 'react-bootstrap';
 
 function App() {
   return (
